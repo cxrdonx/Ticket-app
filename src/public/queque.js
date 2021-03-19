@@ -67,4 +67,5 @@ document.getElementById("textArea").value = arr ;
 function kill(){
     canvas.width = 300;
     canvas.height = 150;
+    
 }
