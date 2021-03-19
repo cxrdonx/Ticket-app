@@ -3,10 +3,10 @@
     <head>
         <meta charset="utf-8">
         <title><%= title %></title>
-        <script src="../src/public/queque.js"></script>
     </head>
     <body>
         <%=title%>
+    
              <div>
                  <table border="1px solid black;">
                      <tr>
@@ -17,7 +17,7 @@
                      <tr>
                          <td>
                              <div>
-                                 <canvas>
+                                 <canvas id="canvas">
                                      
                                  </canvas>
                              </div>
@@ -25,13 +25,14 @@
                      </tr>
                      <tr>
                          <td>
-                             <input type="button" name="dflkgj">
+                             <button id="push">Generar ticket</button>
+                             <button id="ok">Ingresar</button>
+                             <button id="r">Generar otro ticket</button>
                          </td>
                      </tr>
                  </table>
              </div>
 
-
-
+             <script src="queque.js"></script>
     </body>
 </html>
