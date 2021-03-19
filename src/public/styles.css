@@ -32,7 +32,8 @@ body{
 @media screen and (min-width: 800px) {
 	 #viewT {
 		float:right;
-        width: 50%;
+        width: 59%;
+        height: 20%;
 	
 	}
 }
