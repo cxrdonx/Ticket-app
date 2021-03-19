@@ -1,5 +1,5 @@
 const express = require('express');
-
+const quequeController = require('../controllers/quequeController');
 const router = express();
 
 router.get('/', (req, res) =>{
@@ -7,4 +7,5 @@ router.get('/', (req, res) =>{
         title: 'Inicio'
     });
 });
+
 module.exports = router;

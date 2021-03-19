@@ -20,35 +20,28 @@ ingresar.addEventListener('click', function(){
 });
 */
      function generate(){
-        
          number++;
          var ctx = canvas.getContext('2d');
          kill();
          ctx.font = "40pt verdana";
+         ctx.fillStyle = "white";
          ctx.lineWidth = '5';
          ctx.fillText(number,100,78);
-        
-
-      
+         ctx.fillColor = "white";
      }
 
 function newTicket(){
-  var prueba =  Array.prototype.includes(number);
-
+      arr.push(number);
+      var prueba =  Array.prototype.includes(arr);
       console.log(prueba);
-   arr.push(number);
-   console.log(arr);
-  
-     
+      console.log(arr);
   }
-
 
 function cleanLast(){
    kill();
     arr.pop();
     console.log(arr);
 }
-
 function kill(){
     canvas.width = 300;
     canvas.height = 150;

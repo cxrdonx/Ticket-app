@@ -1,0 +1,38 @@
+
+body{
+    background-color: #000;
+}
+/*@media screen and (min-width:480px){
+    
+    #item2{
+        float: right;
+    }
+
+    
+.grid-container {
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .grid-container{
+      grid-template-columns: 1fr;
+    }
+}
+}
+*/
+#table{
+	width:40%;
+    float: left;
+    margin-top: 0.5;
+}
+
+@media screen and (min-width: 800px) {
+	 #viewT {
+		float:right;
+        width: 50%;
+	
+	}
+}
