@@ -39,10 +39,10 @@ this.draw = function(){
          number++;
          var ctx = canvas.getContext('2d');
          kill();
-            ctx.font = "40pt verdana";
-              ctx.fillStyle = "white";
+               ctx.font = "40pt verdana";
+               ctx.fillStyle = "white";
                ctx.lineWidth = '5';
-              ctx.fillText(number,100,78);
+               ctx.fillText(number,100,78);
      }
 
 function newTicket(){
