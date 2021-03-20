@@ -10,7 +10,7 @@
          <%=title%>
 <div class="grid-container">
              <div class="item1">
-                 <table id= "table" border="1px solid black;" class="table table-dark table-striped">
+                <table id= "table" "border="1px solid black;" class="table table-dark table-striped">
                      <tr>
                          <td>
                              Ticket:
@@ -19,7 +19,7 @@
                      <tr>
                          <td>
                              <div>
-                                 <canvas id="canvas">
+                                 <canvas class="canvas">
                                  </canvas>
                              </div>
                          </td>
@@ -29,8 +29,8 @@
                              <button id="push">Generar ticket</button>
                              <button id="ok">Agregar a la cola</button>              
                          </td>
-                     </tr>
-                </span>
+                        </tr>
+                    </table>
             </div>
             <div class="item2">
                  <table id= "viewT" "border="1px solid black;" class="table table-dark table-striped">
@@ -46,8 +46,27 @@
                        </tr>
                     </table>
              </div>
-       </div>
-            
+             <div class = "item3">
+                <table id= "viewT" "border="1px solid black;" class="table table-dark table-striped">
+                    <tr>
+                        <td>
+                            TURNO No:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <canvas class="canvas2">
+                            </canvas>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button id="attend">Attend</button>
+                        </td>
+                    </tr>
+                 </table>
+             </div>
+       </div>           
              <script src="queque.js" type="text/javascript"></script>
              <link rel="stylesheet" type="text/css" href="styles.css">
 
