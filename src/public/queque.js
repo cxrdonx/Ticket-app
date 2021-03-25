@@ -19,22 +19,6 @@ attend.addEventListener('click', function(){
     seeTurn();
 });
 
-/*genOt.addEventListener('click', function(){
-    cleanLast();
-});
-*/
-var x = 0;
-var y =0;
-
-var drawInCanvas = function(x, y, number){
-   this.x = x;
-   this.y = y;
-
-this.draw = function(){
-    ctx.fillText(number,this.x,this.y);
-}
-
-}
      function generate(){
          number++;
          var ctx = canvas.getContext('2d');
@@ -47,8 +31,7 @@ this.draw = function(){
 
 function newTicket(){
       arr.push(number);
-      var prueba =  Array.prototype.includes(arr);
-      console.log(arr);
+      generate();
       seeQ();
   }
 function cleanLast(){
